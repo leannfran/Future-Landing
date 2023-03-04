@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+    background-image: url(../Screen\ Shot\ 2023-01-28\ at\ 17.32.06\ 2.png);
+}
