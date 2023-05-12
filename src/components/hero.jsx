@@ -11,7 +11,7 @@ const Hero = () => {
                     <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla 
                     </p>
                     <div>
-                        <a className="bg-primary font-semibold border-2 border-primary text-black py-2 px-8 rounded-full w-[15]md:w-[25vh]" href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90">
+                        <a className="bg-primary font-semibold border-2 border-primary text-black py-2 px-8 rounded-full w-[15] md:w-[25vh]" href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90">
                             Digitalizate
                         </a>
                         <a className="border-2 font-semibold border-primary text-primary py-2 px-6 hover:bg-primary hover:text-black rounded-full transition-colors ml-3" href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90">
