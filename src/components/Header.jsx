@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header
       className={`flex fixed items-center justify-between xl:justify-start w-full p-4 h-[10vh] z-50 transition-all duration-700 ${
-        scrolled ? " backdrop-blur-sm transition-opacity" : "bg-transparent"
+        scrolled ? " backdrop-blur-sm transition-all" : "bg-transparent"
       }`}
     >
       <div className="w-1/6 text-center">
