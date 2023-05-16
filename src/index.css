@@ -3,5 +3,14 @@
 @tailwind utilities;
 
 .hero{
-background-image: url(../public/img/background.png);
+background-image: url(/img/background.png);
 }
+
+*{
+    scroll-behavior: smooth;
+}
+  
+  
+  
+  
+  

@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header
       className={`flex fixed items-center justify-between xl:justify-start w-full p-4 h-[10vh] z-50 transition-all duration-700 ${
-        scrolled ? "bg-white bg-opacity-75" : "bg-transparent"
+        scrolled ? " backdrop-blur-sm transition-opacity" : "bg-transparent"
       }`}
     >
       <div className="w-1/6 text-center">
@@ -37,19 +37,17 @@ const Header = () => {
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center xl:justify-end transition-all duration-700 `}
       >
         <a href="#" className="m-5">
-          Home
+          Inicio
         </a>
-        <a href="#" className="m-5">
-          About Us
+        <a href="#Servicios" className="m-5">
+          Servicios
         </a>
-        <a href="#" className="m-5">
-          Services
+        <a href="#Team" className="m-5">
+          Nosotros
         </a>
+    
         <a href="#" className="m-5">
-          Portfolio
-        </a>
-        <a href="#" className="m-5">
-          Contact
+          Contacto
         </a>
       </nav>
       <button
