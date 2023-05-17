@@ -6,8 +6,8 @@ const Servicios = () => {
         <div id='Servicios' className='flex flex-col justify-start aling-center w-full min-h-screen  mt-16 '>
           
             <h2 className='text-3xl font-normal tracking-wide text-center'>Elegi tu <span className='border-b-2 border-primary font-semibold pb-0.5'>servicio</span> </h2>
-            <p className='md:mx-20 mt-2 font-light text-sm text-center'>Clickeando en el servicio que creas conveniente para tu empresa podes ver toda la informacion y comenzar en este nuevo camino rumbo a la "Digitalizacion" De tu empresa ! </p>
-            <div className="grid grid-cols-1 mt-10 md:mx-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <p className='md:mx-20 mt-2 font-light text-sm text-center mx-1'>Clickeando en el servicio que creas conveniente para tu empresa podes ver toda la informacion y comenzar en este nuevo camino rumbo a la "Digitalizacion" De tu empresa ! </p>
+            <div className="grid grid-cols-2 mx-6 mt-10 md:mx-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card
         title="Bases de Datos"
         description="Imagina poder encontrar a tus clientes ideales con facilidad, sin perder tiempo valioso en investigaciones exhaustivas. Nuestras bases de datos globales te permiten conectar con prospectos relevantes de manera eficiente, ahorrándote el esfuerzo de buscar manualmente información dispersa en diferentes fuentes."

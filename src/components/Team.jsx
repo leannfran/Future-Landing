@@ -6,9 +6,9 @@ const Team = () => {
     <div
       id="Team"
       className="
-    w-full h-screen
+    w-full h-auto
     flex flex-col items-center 
-    mt-10
+    my-10
     "
     >
       <h3 className="text-3xl font-extralight mb-10 mt-14 ">
@@ -17,16 +17,16 @@ const Team = () => {
       </h3>
 
       <section className="">
-        <div className="container mx-auto px-4">
+        <div className=" mx-auto px-4">
           <div className="flex flex-col md:flex-row">
-            <div className="flex justify-end">
+            <div className="flex justify-end items-start">
               <img
-                className="max-w-[399px] h-auto mb-8 rounded shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow  "
+                className=" md:min-w-[499px] my-8 w-full object-contain   rounded shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow  "
                 src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/LOGO%20FUTURE.png?alt=media&token=3d6b65eb-d4f1-4260-b846-56700955ff7d"
                 alt="Imagen de la empresa"
               />
             </div>
-            <div className="md:pl-8">
+            <div className="md:pl-8 p-4">
               <p className="text-lg font-light leading-relaxed mb-4">
                 ¡Hola a todos! Somos Future, un grupo de emprendedores
                 apasionados por la tecnología. Nos dedicamos a ofrecer
@@ -82,45 +82,9 @@ const Team = () => {
           </div>
         </div>
       </section>
-      <h3 className="text-3xl font-extralight mb-10 mt-14 ">
-        {" "}
-        Future <span className="italic font-normal">Team</span> {" "}
-      </h3>
-      <div className="
-      
-      mt-10
-      grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-      <TeamCard
-          name="Leandro Franco"
-          position="ceo"
-          imageUrl="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f"
-          Linkedin="https://www.facebook.com/jtdevsmx"
-          Portfolio="https://www.instagram.com/jtdevsmx/"
-        />
-        <TeamCard
-          name="Alan Vargas"
-          position="Full Stack"
-          imageUrl="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f"
-          Linkedin="https://www.facebook.com/jtdevsmx"
-          Portfolio="https://www.instagram.com/jtdevsmx/"
-        />
-        <TeamCard
-          name="Candelaria Romero"
-          position="Ux/Ui Designer"
-          imageUrl="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f"
-          Linkedin="https://www.facebook.com/jtdevsmx"
-          Portfolio="https://www.instagram.com/jtdevsmx/"
-        />
-        <TeamCard
-          name="Matias Otero"
-          position="Comunity Manager"
-          imageUrl="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f"
-          Linkedin="https://www.facebook.com/jtdevsmx"
-          Portfolio="https://www.instagram.com/jtdevsmx/"
-        />
+   
       
 
-      </div>
       
     </div>
   );
