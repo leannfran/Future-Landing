@@ -6,6 +6,9 @@ module.exports = {
       colors:{ 
         primary:"#08E4FF",
         secondary:"#352CFE"
+      },
+      screens:{
+        xs:"310px"
       }
     },
   },
