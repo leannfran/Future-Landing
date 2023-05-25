@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/Wsp";
 import Presentation from "./components/Presentation";
 import Team from "./components/Team";
+import Clients from "./components/Clients"
 
 const App = () => {
   
@@ -14,6 +15,7 @@ const App = () => {
       <Hero/>
      < WhatsAppButton/>
       <Servicios/>
+      <Clients/>
       <Presentation />
       <Team/>
       <Footer/>
