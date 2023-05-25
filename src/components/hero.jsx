@@ -1,11 +1,11 @@
 import { RiCodeSSlashFill, RiCodeFill } from "react-icons/ri";
 const Hero = () => {
     return (
-        <section className="hero bg-fixed bg-cover bg-no-repeat pt-[10vh] min-h-screen grid grid-cols-1 md:grid-cols-8 pb-[5vh]  ">
+        <section className="hero md:bg-fixed bg-cover bg-no-repeat pt-[10vh] min-h-screen grid grid-cols-1 md:grid-cols-8 pb-[5vh]  ">
             
             <div className=" md:col-span-5 flex items-center justify-start md:justify-center p-5 md:p-20 ">
                 <div className="flex flex-col gap-8 ">
-                    <h1 className="md:text-8xl  text-[5.2rem] font-medium tracking-wide leading-[7rem]  ">
+                    <h1 className="md:text-8xl  text-[6rem] font-medium tracking-wide leading-[7rem]  ">
                    Crea tu pagina web  <span className=" text-primary  ">ideal</span>
                     </h1>
                     <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">Descubre un mundo de oportunidades con nuestras bases de datos globales: Conéctate, crece y alcanza el éxito en cualquier lugar del mundo.{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
