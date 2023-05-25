@@ -6,7 +6,7 @@ const Hero = () => {
             <div className=" md:col-span-5 flex items-center justify-start md:justify-center p-5 md:p-20 ">
                 <div className="flex flex-col gap-8 ">
                     <h1 className="md:text-8xl  text-[5.2rem] font-medium tracking-wide leading-[7rem]  ">
-                    Datos ilimitados para el éxito  <span className=" text-primary  ">global</span>
+                   Crea tu pagina web  <span className=" text-primary  ">ideal</span>
                     </h1>
                     <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">Descubre un mundo de oportunidades con nuestras bases de datos globales: Conéctate, crece y alcanza el éxito en cualquier lugar del mundo.{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
                     </p>
