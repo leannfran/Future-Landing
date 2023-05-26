@@ -6,7 +6,7 @@ const Team = () => {
     <>
       <h3 className="text-center font-extralight text-3xl mb-10"> Team </h3>
 
-      <div className="flex  gap-2 mx-4">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-2 mx-4">
         <TeamCard
           name="Leandro Franco"
           position="Ceo - Front End"

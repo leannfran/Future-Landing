@@ -22,11 +22,7 @@ const Servicios = () => {
         title="Diseño"
         description="Nuestro equipo de diseño crea diseños visualmente impactantes que representan la esencia de tu marca y te ayudan a destacar en un mercado saturado. Además, ofrecemos servicios de diseño UX/UI para garantizar una experiencia de usuario excepcional y una interacción intuitiva con tus productos o servicios"
         image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/desing.png?alt=media&token=81c2d778-38e5-4356-866e-9d0e9f1aedb5"/>
-      <Card
-        title="Marketing digital"
-        description=" Maximiza el alcance de tu marca y atrae a más clientes potenciales a través de nuestras estrategias de publicidad digital y gestión de redes sociales."
-        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/mark.png?alt=media&token=e2375d2a-a6da-46f5-aaac-8b9abc1ae6f6"
-      />
+     
     </div>
             
         </div>

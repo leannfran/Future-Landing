@@ -23,7 +23,9 @@ Agenda una llamada                        </a>
                 </div>
             </div>
             
-            <div className=" col-span-3">
+            <div className="justify-center flex flex-col col-span-3">
+
+                <img src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/iphoneymac.png?alt=media&token=ad5f529a-7420-4f3e-9598-416005750d5d" alt="" />
                 
             </div>
         </section>

@@ -3,14 +3,14 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import {FiExternalLink} from 'react-icons/fi'
 const TeamCard = ({ name, position, imageUrl, Linkedin, Portofilo }) => {
   return (
-    <div className="flex rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden bg-gray-50 w-1/3 border">
+    <div className="flex rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden bg-gray-50 md:w-1/3 border">
       <div className="flex justify-center ">
         <img
           src={imageUrl}
           alt={name}
 
           lazyload="true"
-          className="w-28 object-cover "
+          className="w-28 max-h-44 object-cover "
         />
       </div>
       <div className="flex flex-col items-start justify-between pl-2 gap-2 p-2">
