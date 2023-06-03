@@ -86,8 +86,8 @@ const Header = () => {
           <input type="checkbox" id="toggle" className="hidden" onClick={() => toggleLanguage()} />
           <label htmlFor="toggle" className="flex items-center cursor-pointer">
             <span className="relative">
-              <span className="block w-10 h-6 bg-black rounded-full shadow-inner"></span>
-              <span id="toggle-dot" className="dot absolute left-1 top-1 bg-black w-4 h-4 rounded-full transition"></span>
+              <span className="block w-10 h-6 bg-gray-900 rounded-full shadow-inner"></span>
+              <span id="toggle-dot" className="dot absolute left-1 top-1 bg-primary w-4 h-4 rounded-full transition"></span>
             </span>
             <span id="toggle-label" className="ml-3 text-gray-700 font-normal">🇪🇸</span>
           </label>
