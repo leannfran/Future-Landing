@@ -20,13 +20,13 @@ const Header = () => {
 
       toggleDot.style.transform = 'translateX(100%)';
       toggleDot.style.backgroundColor = '#10B981';
-      toggleLabel.innerText = 'Inglés';
+      toggleLabel.innerText = '🇺🇸';
 
     } else {
 
       toggleDot.style.transform = 'translateX(0)';
       toggleDot.style.backgroundColor = 'white';
-      toggleLabel.innerText = 'Español';
+      toggleLabel.innerText = '🇪🇸';
 
     }
 
@@ -86,10 +86,10 @@ const Header = () => {
           <input type="checkbox" id="toggle" className="hidden" onClick={() => toggleLanguage()} />
           <label htmlFor="toggle" className="flex items-center cursor-pointer">
             <span className="relative">
-              <span className="block w-10 h-6 bg-gray-400 rounded-full shadow-inner"></span>
-              <span id="toggle-dot" className="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></span>
+              <span className="block w-10 h-6 bg-black rounded-full shadow-inner"></span>
+              <span id="toggle-dot" className="dot absolute left-1 top-1 bg-black w-4 h-4 rounded-full transition"></span>
             </span>
-            <span id="toggle-label" className="ml-3 text-gray-700 font-normal">Español</span>
+            <span id="toggle-label" className="ml-3 text-gray-700 font-normal">🇪🇸</span>
           </label>
         </div>
 

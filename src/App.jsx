@@ -9,7 +9,7 @@ import Team from "./components/Team";
 const App = () => {
   
   return (
-    <div className="max-w-100%">
+    <div className="max-w-full">
       <Header/>
       <Hero/>
      < WhatsAppButton/>
