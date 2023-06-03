@@ -1,10 +1,14 @@
 import React from "react";
 import TeamCard from "./TeamCard";
+import { useTranslation } from 'react-i18next'
 
 const Team = () => {
+
+  const [t,i18n] = useTranslation("global")
+
   return (
     <>
-      <h3 className="text-center font-extralight text-3xl mb-10"> Team </h3>
+      <h3 className="text-center font-extralight text-3xl mb-10" id="Team"> {t("team.title")} </h3>
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-2 mx-4">
         <TeamCard
@@ -16,7 +20,7 @@ const Team = () => {
         />
         <TeamCard
           name="Candelaria Romero"
-          position="Diseñadora Ux Ui"
+          position={t("team.ux/ui")}
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/cande.png?alt=media&token=a76dbc9c-9a05-4ccd-a4ff-1cb3deb19d3d"
           Linkedin="https://www.linkedin.com/in/candelaria-romero-01/"
           Portofilo="https://www.behance.net/candelaromero4"
