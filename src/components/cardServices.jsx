@@ -10,7 +10,6 @@ export const Card = ({ title, description, image }) => {
     <div className="flex flex-col justify-between p-4 h-full">
       <div>
         <h3 className="text-lg font-medium mb-2">{title}  </h3>
-        <p className=" hidden md:inline-block text-gray-600 mb-2">{description}</p>
       </div>
       <div className="flex aling-center flex-col">
       <a
