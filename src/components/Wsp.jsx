@@ -1,15 +1,23 @@
 import React from 'react';
-import {BsWhatsapp} from 'react-icons/bs'
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
+
 const WhatsAppButton = () => {
   return (
-    <a
-      href="https://api.whatsapp.com/send?phone=5401132693101"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed right-4 bottom-4 p-4 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600"
-    >
-      <BsWhatsapp />
-    </a>
+   
+    <>
+    
+      <WhatsAppWidget
+        phoneNumber="5401132693101"
+        sendButtonText='Enviar'
+        inputPlaceHolder='Escribe un mensaje...'
+        companyName='Future'
+        replyTimeText='En linea'
+        message='¡Hola! En Future, nuestro equipo de servicio al cliente está listo para ayudarte en lo que necesites. Contáctanos y experimenta una atención excepcional. ¡Estamos aquí para ti! 🤝'
+      />
+
+    </>
+   
   );
 };
 
