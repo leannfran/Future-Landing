@@ -1,0 +1,169 @@
+{
+
+    "header":{
+
+        "Home": "Inicio",
+        "Services": "Servicios",
+        "About": "Nosotros",
+        "Team": "Equipo",
+        "Contact": "Contacto"
+
+    },
+
+    "hero": {
+
+        "title": "Crea tu pagina web",
+        "description": "Somos future una agencia destinada a la digitalizacion de tu empresa de manera rapida y eficaz.",
+        "ideal": "ideal"
+
+    },
+
+    "buttons": {
+
+        "digitalizate": "Digitalizate",
+        "agenda": "Agenda una llamada"
+
+    },
+
+    "services": [
+
+        {
+
+            "title": "Elegi tu",
+            "subtitle": "servicio",
+            "description": "Clickeando en el servicio que creas conveniente para tu empresa podes ver toda la información y comenzar en este nuevo camino rumbo a la 'Digitalización' De tu empresa!"
+
+        },
+
+        {
+
+            "desarrollo": "Desarrollo web",
+            "description": "Creamos sitios web personalizados que se adaptan a las necesidades específicas de tu negocio. Utilizamos las últimas tecnologías y mejores prácticas de diseño para asegurarnos de que tu sitio web sea rápido, seguro y fácil de usar."
+
+        },
+
+        {
+
+            "bases": "Bases de Datos",
+            "description": "Imagina poder encontrar a tus clientes ideales con facilidad, sin perder tiempo valioso en investigaciones exhaustivas. Nuestras bases de datos globales te permiten conectar con prospectos relevantes de manera eficiente, ahorrándote el esfuerzo de buscar manualmente información dispersa en diferentes fuentes."
+
+        },
+
+        {
+
+            "diseño": "Diseño",
+            "description": "Nuestro equipo de diseño crea diseños visualmente impactantes que representan la esencia de tu marca y te ayudan a destacar en un mercado saturado. Además, ofrecemos servicios de diseño UX/UI para garantizar una experiencia de usuario excepcional y una interacción intuitiva con tus productos o servicios."
+
+        }
+
+    ],
+
+    "about": [
+
+        {
+
+            "title": "Sobre Nosotros"
+
+        },
+
+        {
+
+            "paragraph1": "¡Hola a todos! Somos Future, un grupo de emprendedores apasionados por la tecnología. Nos dedicamos a ofrecer soluciones",
+            "subparagraph1": "innovadoras para nuestros valiosos clientes.",
+            "technology": "tecnológicas"
+
+        }, 
+
+        {
+
+            "paragraph2": "Nuestro equipo de expertos en",
+            "subparagraph2": "de software se enfoca en crear aplicaciones y sistemas personalizados utilizando las últimas tecnologías y las mejores prácticas de la industria.",
+            "development": "desarrollo "
+
+
+
+        }, 
+
+        {
+
+            "paragraph3": "Nos comprometemos a proporcionar",
+            "subparagraph3": "satisfaciendo las necesidades y superando las expectativas de nuestros clientes." ,
+            "solutions": "soluciones de alta calidad,"
+
+
+            
+        }, 
+
+        {
+
+            "paragraph4": "En Future, creemos en el poder transformador de la tecnología y nos enorgullece ayudar a las empresas a alcanzar su máximo potencial a través de",
+            "subparagraph4": "eficientes y efectivas.",
+            "solutions_digital": "soluciones digitales"
+
+
+            
+        }, 
+
+        {
+
+            "paragraph5": "Trabajamos estrechamente con nuestros clientes, comprendiendo sus objetivos y brindando soluciones a medida que impulsen su éxito en el mundo digital.",
+            "world_digital": "mundo digital."
+
+            
+        }, 
+
+        {
+
+            "paragraph6": "Confía en",
+            "subparagraph6": "para todas tus necesidades tecnológicas. Estamos aquí para ayudarte a llevar tu negocio al" ,
+            "next_level": "siguiente nivel.",
+            "future": "Future"
+
+
+            
+        }
+
+    ],
+
+    "team": {
+
+        "title": "Equipo",
+        "ux/ui": "Diseñadora UX/UI"
+
+    },
+
+    "footer": [
+
+        {
+
+            "future_description": "En Future, somos un equipo de profesionales con experiencia dedicados a proporcionar soluciones digitales de alta calidad para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a tener éxito en el siempre cambiante mundo digital, brindándoles las herramientas y la experiencia que necesitan para mantenerse por delante de la competencia."
+
+        },
+
+        {
+
+            "social_network": "redes sociales"
+
+        },
+
+        {
+
+            "terms_conditions": "Terminos y condiciones"
+
+        },
+
+        {
+
+            "policy": "Política de privacidad"
+
+        },
+
+        {
+
+            "copyright": "Todos los derechos reservados"
+
+        }
+
+    ]
+
+}
