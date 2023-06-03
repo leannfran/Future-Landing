@@ -1,35 +1,44 @@
 import React from 'react';
 import {AiFillLinkedin} from 'react-icons/ai'
+import { useTranslation } from 'react-i18next'
+
 const Footer = () => {
+
+  const [t,i18n] = useTranslation("global")
+
     return (
         <div className="bg-white w-full p-8">
         <div className="grid grid-rows-1 gap-8 md:grid-cols-12 xl:gap-8">
           <div className="md:col-span-12 xl:col-span-4 flex flex-col gap-4">
             <h1 className="text-3xl font-bold text-gray-900">Future</h1>
             <p className="text-gray-600 text-justify">
-            En Future, somos un equipo de profesionales con experiencia dedicados a proporcionar soluciones digitales de alta calidad para empresas de todos los tamaños. Nuestro objetivo es ayudar a nuestros clientes a tener éxito en el siempre cambiante mundo digital, brindándoles las herramientas y la experiencia que necesitan para mantenerse por delante de la competencia.
+            {t("footer.0.future_description")}
             </p>
           </div>
           <div className="md:col-span-4 xl:col-span-2">
             <h2 className="font-bold mb-6 uppercase">Menu</h2>
             <nav className="flex flex-col gap-4">
               <a href="#" className="hover:underline">
-                Inicio
+              {t("header.Home")}
               </a>
               <a href="#Servicios" className="hover:underline">
-                Servicios
+              {t("header.Services")}
               </a>
               <a href="#Nosotros" className="hover:underline">
-                Nosotros
+              {t("header.About")}
+              </a>
+
+              <a href="#Team" className="hover:underline">
+              {t("header.Team")}
               </a>
 
               <a href="#" className="hover:underline">
-                Contacto
+              {t("header.Contact")}
               </a>
             </nav>
           </div>
           <div className="md:col-span-4 xl:col-span-3">
-            <h2 className="font-bold mb-6 uppercase">Redes sociales</h2>
+            <h2 className="font-bold mb-6 uppercase">{t("footer.1.social_network")}</h2>
             <nav id='Contacto'>
               <a
                 href="https://www.facebook.com/profile.php?id=100089096902334"
@@ -69,7 +78,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="md:col-span-4 xl:col-span-3">
-            <h2 className="font-bold mb-6 uppercase">Contacto</h2>
+            <h2 className="font-bold mb-6 uppercase">{t("header.Contact")}</h2>
             <div className="flex flex-col gap-4">
               <p className="flex items-center gap-2">
                 <svg
@@ -134,22 +143,21 @@ const Footer = () => {
         <div className="flex flex-col xl:flex-row gap-4 items-center justify-between">
           <p className="text-gray-800 text-center md:text-left">
             &copy; 2023
-            <span className="text-gray-900 font-bold">Future Company.</span> Todos
-            los derechos reservados.
+            <span className="text-gray-900 font-bold"> Future Company.</span> {t("footer.4.copyright")}
           </p>
           <div className="flex flex-col md:flex-row items-center gap-2">
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
-              Terminos y condiciones
+              {t("footer.2.terms_conditions")}
             </a>
             <span className="hidden md:flex">|</span>
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
-              Política de privacidad
+              {t("footer.3.policy")}
             </a>
           </div>
         </div>
