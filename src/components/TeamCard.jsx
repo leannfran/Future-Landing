@@ -3,39 +3,42 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import {FiExternalLink} from 'react-icons/fi'
 const TeamCard = ({ name, position, imageUrl, Linkedin, Portofilo }) => {
   return (
-    <div className="">
-      <div className="flex justify-center py-8">
+    <div className="flex rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden bg-gray-50 md:w-1/3 border">
+      <div className="flex justify-center ">
         <img
           src={imageUrl}
           alt={name}
+
           lazyload="true"
-          className="rounded-full w-32 h-32 object-contain ring-4 ring-gray-300"
+          className="w-28 max-h-44 object-cover "
         />
       </div>
-      <div className="flex flex-col items-center gap-2 p-4">
-        <h3 className="font-semibold text-xl">
+      <div className="flex flex-col items-start justify-between pl-2 gap-2 p-2">
+        <h3 className="font-semibold p text-xl">
           {name}
         </h3>
-        <p className="text-gray-600 ">
+        <p className="text-gray-600 border-b pl-2 border-primary ">
           {position}
         </p>
-        <div className="flex items-center">
+        <div className="flex w-full flex-col gap-1 items-start">
           <a
             href={Linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 hover:bg-gray-100 hover:rounded-lg transition-all"
+            className="p-2 flex  items-center hover:bg-gray-100 hover:rounded-lg transition-all"
           >
-                        <AiFillLinkedin/>
+                        <AiFillLinkedin className='text-xl'/>
+                        <p className='font-light pl-1  text-sm'>Linkedin</p>
           </a>
           <a
             href={Portofilo}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 hover:bg-gray-100 hover:rounded-lg transition-all"
+            className="p-2 flex items-center  hover:bg-gray-100 hover:rounded-lg transition-all"
           >
               
-            <FiExternalLink/>
+            <FiExternalLink className='text-xl'/>
+            <p className=' font-light pl-1  text-sm'> Portfolio</p>
 
               </a>
               

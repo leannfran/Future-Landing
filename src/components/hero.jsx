@@ -8,7 +8,7 @@ const Hero = () => {
                     <h1 className="md:text-[7rem] xs:text-[6rem] text-[5rem] font-medium tracking-wide leading-[7rem]  ">
                    Crea tu pagina web  <span className=" text-primary  ">ideal</span>
                     </h1>
-                    <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">Descubre un mundo de oportunidades con nuestras bases de datos globales: Conéctate, crece y alcanza el éxito en cualquier lugar del mundo.{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
+                    <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">Somos future una agencia destinada a la digitalizacion de tu empresa de manera rapida y eficaz{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
                     </p>
                     <div className="flex  ">
                         <a className="bg-primary border-primary text-black text-center
@@ -23,7 +23,9 @@ Agenda una llamada                        </a>
                 </div>
             </div>
             
-            <div className=" col-span-3">
+            <div className="justify-center flex flex-col col-span-3">
+
+                <img src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/iphoneymac.png?alt=media&token=ad5f529a-7420-4f3e-9598-416005750d5d" alt="" />
                 
             </div>
         </section>
