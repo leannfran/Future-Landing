@@ -7,6 +7,9 @@ import Presentation from "./components/Presentation";
 import Team from "./components/Team";
 
 const App = () => {
+    <head>
+      
+    </head>
   
   return (
     <div className="max-w-full">
