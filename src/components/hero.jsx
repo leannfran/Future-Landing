@@ -8,7 +8,7 @@ const Hero = () => {
 
     return (
         <section className="hero md:bg-fixed bg-cover bg-no-repeat pt-[10vh] min-h-screen flex flex-col md:flex-row pb-[5vh]  ">
-           <div className=" md:col-span-5  flex items-center justify-start md:justify-center p-5 md:p-20 xs:p-0">
+           <div className=" md:col-span-5  flex items-center justify-start md:justify-center p-5 md:p-20">
                 <div className="flex flex-col gap-8">
                     <h1 className="md:text-[7rem] text-black xs:text-[6rem] text-[5rem] font-medium tracking-wide leading-[7rem] sm:text-[6rem]">
                     {t("hero.title")} <span className="pr-10 text-primary">{t("hero.ideal")}</span>{i18next.language === 'es' ? null : t("hero.website")}

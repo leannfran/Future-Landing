@@ -26,7 +26,10 @@ const Servicios = () => {
         title={t("services.3.diseño")}
         description={t("services.3.description")}
         image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/desing.png?alt=media&token=81c2d778-38e5-4356-866e-9d0e9f1aedb5"/>
-     
+     <Card
+        title="Marketing Digital"
+        description=""
+        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/mark.png?alt=media&token=e2375d2a-a6da-46f5-aaac-8b9abc1ae6f6&_gl=1*30e2zd*_ga*MTYwNzk3NjQyNS4xNjc2MzgyMzU3*_ga_CW55HF8NVT*MTY4NjMyNDIwNy4zNy4xLjE2ODYzMjQ0MjUuMC4wLjA."/>
     </div>
             
         </div>
