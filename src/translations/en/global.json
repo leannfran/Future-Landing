@@ -12,10 +12,10 @@
 
     "hero": {
 
-        "title": "Create your",
-        "website": "website",
+        "title": "Create your ideal",
+        "website": "",
         "description": "We are future an agency dedicated to the digitization of your company quickly and efficiently.",
-        "ideal": "ideal"
+        "ideal": "website"
 
     },
 
@@ -39,7 +39,7 @@
 
         {
 
-            "desarrollo": "Web development",
+            "desarrollo": "Web - App development",
             "description": "We create custom websites that are tailored to the specific needs of your business. We use the latest technologies and design best practices to make sure your website is fast, secure, and easy to use."
 
         },

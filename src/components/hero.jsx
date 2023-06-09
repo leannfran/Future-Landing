@@ -9,9 +9,9 @@ const Hero = () => {
     return (
         <section className="hero md:bg-fixed bg-cover bg-no-repeat pt-[10vh] min-h-screen flex flex-col md:flex-row pb-[5vh]  ">
            <div className=" md:col-span-5  flex items-center justify-start md:justify-center p-5 md:p-20 ">
-                <div className="flex flex-col gap-8 ">
+                <div className="flex flex-col  gap-8 ">
                     <h1 className="md:text-[7rem] text-black xs:text-[6rem] text-[5rem] font-medium tracking-wide leading-[7rem]  ">
-                    {t("hero.title")}  <span className="pr-10 text-primary">{t("hero.ideal")}</span>{i18next.language === 'es' ? null : t("hero.website")}
+                    {t("hero.title")}  <span className="pr-10 text-primary">{t("hero.ideal")}</span>
                     </h1>
                     <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">{t("hero.description")}{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
                     </p>
