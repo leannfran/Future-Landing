@@ -30,7 +30,7 @@ const Hero = () => {
             
             <div className="justify-center flex flex-col md col-span-3">
 
-                <img src={i18n.language === 'es' ? 'img/mockups/Future_Español.png' : 'img/mockups/Future_Inglés.png'} alt="Computadora y celular de future"/>
+                <img src={i18n.language === 'es' ? 'img/mockups/Future_Español.png' : 'img/mockups/Future_Inglés.png'} alt="Computadora y celular de future agency"/>
                 
             </div>
         </section>
