@@ -17,11 +17,7 @@ const Servicios = () => {
                 description={t("services.1.description")}
                 image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/desarrollo.png?alt=media&token=86e72111-793f-492f-8d65-e2d0a78151d9"
               />
-            <Card
-        title={t("services.2.bases")}
-        description={t("services.2.description")}
-        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/bases.png?alt=media&token=db9807a6-dc60-4566-b5e0-429688d294f5"
-      />
+           
       <Card
         title={t("services.3.diseño")}
         description={t("services.3.description")}
