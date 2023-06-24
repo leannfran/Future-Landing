@@ -1,0 +1,165 @@
+{
+
+    "header":{
+
+        "Home": "Home",
+        "Services": "Services",
+        "About": "About us",
+        "Team": "Team",
+        "Contact": "Contact"
+
+    },
+
+    "hero": {
+
+        "title": "Create your ideal",
+        "website": "",
+        "description": "We are future an agency dedicated to the digitization of your company quickly and efficiently.",
+        "ideal": "website"
+
+    },
+
+    "buttons": {
+
+        "digitalizate": "Go digital",
+        "agenda": "Schedule a call",
+        "watch_more": "View more"
+
+    },
+
+    "services": [
+
+        {
+
+            "title": "Choose your",
+            "subtitle": "service",
+            "description": "Clicking on the service that you think is best for your company you can see all the information and start on this new path towards the 'Digitalization' of your company!"
+
+        },
+
+        {
+
+            "desarrollo": "Web - App development",
+            "description": "We create custom websites that are tailored to the specific needs of your business. We use the latest technologies and design best practices to make sure your website is fast, secure, and easy to use."
+
+        },
+
+        {
+
+            "bases": "Databases",
+            "description": "Imagine being able to find your ideal customers with ease, without wasting valuable time on thorough research. Our global databases allow you to connect with relevant prospects efficiently, saving you the effort of manually searching for information scattered in different sources."
+
+        },
+
+        {
+
+            "diseño": "Design",
+            "description": "Our design team creates visually striking designs that represent the essence of your brand and help you stand out in a saturated market. In addition, we offer UX/UI design services to ensure an exceptional user experience and intuitive interaction with your products or services."
+
+        }
+
+    ],
+
+    "about": [
+
+        {
+
+            "title": "About us"
+
+        },
+
+        {
+
+            "paragraph1": "Hello everyone! We are Future, a group of entrepreneurs passionate about technology. We are dedicated to providing innovative",
+            "subparagraph1": "for our valued customers.",
+            "technology": "technological solutions"
+            
+
+        }, 
+
+        {
+
+            "paragraph2": "Our team of software",
+            "subparagraph2": "experts focuses on creating custom applications and systems using the latest technologies and industry best practices.",
+            "development": "development"
+
+        }, 
+
+        {
+
+            "paragraph3": "We are committed to providing",
+            "subparagraph3": "meeting the needs and exceeding the expectations of our customers." ,
+            "solutions": "high quality solutions,"
+
+        },
+
+        {
+
+            "paragraph4": "At Future, we believe in the transformative power of technology and take pride in helping companies reach their full potential through efficient and effective",
+            "solutions_digital": "digital solutions."
+
+
+        },
+
+
+        {
+
+            "paragraph5": "We work closely with our clients, understanding their objectives and providing tailored solutions that drive their success in the digital world.",
+            "world_digital": "digital world."
+
+
+        },
+
+        {
+
+            "paragraph6": "Trust",
+            "subparagraph6": "for all your technology needs. We're here to help you take your business to the" ,
+            "next_level": "next level.",
+            "future": "Future"
+
+        }
+
+    ],
+
+    "team": {
+
+        "title": "Team",
+        "ux/ui": "UX/UI Designer"
+
+    },
+
+    "footer": [
+
+        {
+
+            "future_description": "At Future, we are a team of experienced professionals dedicated to providing high-quality digital solutions for businesses of all sizes. Our goal is to help our clients succeed in the ever-changing digital world by providing them with the tools and expertise they need to stay ahead of the competition."
+
+        },
+
+        {
+
+            "social_network": "social networks"
+
+        },
+
+        {
+
+            "terms_conditions": "Terms and conditions"
+
+        },
+
+        {
+
+            "policy": "Privacy policy"
+
+        },
+
+        {
+
+            "copyright": "All rights reserved"
+
+        }
+
+    ]
+
+}

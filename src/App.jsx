@@ -8,9 +8,12 @@ import Team from "./components/Team";
 import Clientes from "./components/Clientes";
 
 const App = () => {
+    <head>
+      
+    </head>
   
   return (
-    <div className="max-w-100%">
+    <div className="max-w-full">
       <Header/>
       <Hero/>
      < WhatsAppButton/>

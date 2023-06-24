@@ -1,10 +1,16 @@
 import React from "react";
 import { RiFacebookLine, RiInstagramLine, RiTwitterLine } from "react-icons/ri";
-import TeamCard from "./TeamCard";
+import aboutCard from "./TeamCard";
+import { useTranslation } from 'react-i18next'
+import i18next from "i18next";
+
 const Presentation = () => {
+
+  const [t,i18n] = useTranslation("global")
+
   return (
     <div
-      id="Team"
+      id="About"
       className="
     w-full h-auto
     flex flex-col items-center 
@@ -13,7 +19,7 @@ const Presentation = () => {
     >
       <h3 className="text-3xl font-extralight mb-10 mt-14 ">
         {" "}
-        Sobre Nosotros{" "}
+        {t("about.0.title")}{" "}
       </h3>
 
       <section className="">
@@ -28,54 +34,42 @@ const Presentation = () => {
             </div>
             <div className="md:pl-8 p-4">
               <p className="text-lg font-light leading-relaxed mb-4">
-                ¡Hola a todos! Somos Future, un grupo de emprendedores
-                apasionados por la tecnología. Nos dedicamos a ofrecer
-                soluciones <span className="font-bold">tecnológicas</span>{" "}
-                innovadoras para nuestros valiosos clientes.
+              {t("about.1.paragraph1")}{" "} <span className="font-bold border-b border-primary">{t("about.1.technology")}{" "}</span>{t("about.1.subparagraph1")}{" "}
               </p>
               <p className="text-lg font-light leading-relaxed mb-4">
-                Nuestro equipo de expertos en{" "}
+              {t("about.2.paragraph2")}{" "}
                 <span className="font-bold border-b border-primary">
                   {" "}
-                  desarrollo
+                  {t("about.2.development")}
                 </span>{" "}
-                de software se enfoca en crear aplicaciones y sistemas
-                personalizados utilizando las últimas tecnologías y las mejores
-                prácticas de la industria.
+                {t("about.2.subparagraph2")}
               </p>
               <p className="text-lg font-light leading-relaxed mb-4">
-                Nos comprometemos a proporcionar{" "}
+              {t("about.3.paragraph3")}{" "}
                 <span className="font-bold border-b border-primary">
-                  soluciones de alta calidad
+                {t("about.3.solutions")}
                 </span>{" "}
-                , satisfaciendo las necesidades y superando las expectativas de
-                nuestros clientes.
+                {t("about.3.subparagraph3")}
               </p>
               <p className="text-lg font-light leading-relaxed mb-4">
-                En Future, creemos en el poder transformador de la tecnología y
-                nos enorgullece ayudar a las empresas a alcanzar su máximo
-                potencial a través de{" "}
+              {t("about.4.paragraph4")}{" "}
                 <span className="font-bold border-b border-primary">
-                  soluciones digitales
+                {t("about.4.solutions_digital")}
                 </span>{" "}
-                eficientes y efectivas.
+                {i18next.language === "en" ? null : t("about.4.subparagraph4")}
               </p>
               <p className="text-lg font-light leading-relaxed mb-4">
-                Trabajamos estrechamente con nuestros clientes, comprendiendo
-                sus objetivos y brindando soluciones a medida que impulsen su
-                éxito en el{" "}
+              {t("about.5.paragraph5")}{" "}
                 <span className="font-bold border-b border-primary">
-                  mundo digital
+                {t("about.5.world_digital")}
                 </span>{" "}
                 .
               </p>
               <p className="text-lg font-light leading-relaxed mb-4">
-                Confía en{" "}
-                <span className="border-b border-primary"> Future</span> para
-                todas tus necesidades tecnológicas. Estamos aquí para ayudarte a
-                llevar tu negocio al{" "}
+              {t("about.6.paragraph6")}{" "}
+                <span className="border-b border-primary"> {t("about.6.future")}</span> {t("about.6.subparagraph6")}{" "}
                 <span className="font-bold font-xl italic">
-                  siguiente nivel.
+                {t("about.6.next_level")}
                 </span>
               </p>
             </div>
