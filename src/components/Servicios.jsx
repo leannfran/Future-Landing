@@ -9,8 +9,8 @@ const Servicios = () => {
   return (
     <>
       <section className="mt-20 relative ">
-          <h4 className="custom-shadow text-8xl font-black mb-20 text-start ml-64 text-black ">OUR <br />DIGITAL <br /> SERVICES</h4>
-          <img className="absolute right-28 w-1/3 top-0 " src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/Our%20services%20(Post%20de%20Facebook%20(Horizontal)).png?alt=media&token=175179e0-ecd4-4e17-a16e-ea3fe17932bc" alt="celular" />
+          <h4 className="custom-shadow text-7xl md:text-8xl font-black mb-96 md:mb-20 text-start ml-3 md:ml-64 text-black ">OUR <br />DIGITAL <br /> SERVICES</h4>
+          <img className="absolute md:right-28 md:w-1/3 top-64 md:top-0 " src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/Our%20services%20(Post%20de%20Facebook%20(Horizontal)).png?alt=media&token=175179e0-ecd4-4e17-a16e-ea3fe17932bc" alt="celular" />
         <div className="flex gap-10 justify-center flex-wrap">
           <Card
             title="Landing Page"
