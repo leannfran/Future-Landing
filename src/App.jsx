@@ -19,10 +19,10 @@ const App = () => {
       <Hero/>
      < WhatsAppButton/>
      <Desarrollo/>
-      <Servicios/>
       <Clientes/>
       <Presentation />
       <Team/>
+      <Servicios/>
       <Footer/>
      
     </div>
