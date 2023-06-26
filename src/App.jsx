@@ -19,7 +19,6 @@ const App = () => {
       <Hero/>
      < WhatsAppButton/>
      <Desarrollo/>
-      <Clientes/>
       <Presentation />
       <Team/>
       <Servicios/>
