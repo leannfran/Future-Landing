@@ -10,6 +10,12 @@ background-image: url(/img/background.png);
     scroll-behavior: smooth;
 }
 
+.custom-shadow {
+    text-shadow: 2px 2px 4px #08E4FF, -2px -2px 4px #352CFE;
+  }
   
-  
+.custom-shadow-hover:hover{
+    text-shadow: 2px 2px 4px #08E4FF, -2px -2px 4px #352CFE;
+
+}
   

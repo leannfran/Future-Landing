@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/Wsp";
 import Presentation from "./components/Presentation";
 import Team from "./components/Team";
+import Clientes from "./components/Clientes";
+import Desarrollo from "./components/Desarrollo";
 
 const App = () => {
     <head>
@@ -16,9 +18,10 @@ const App = () => {
       <Header/>
       <Hero/>
      < WhatsAppButton/>
-      <Servicios/>
+     <Desarrollo/>
       <Presentation />
       <Team/>
+      <Servicios/>
       <Footer/>
      
     </div>

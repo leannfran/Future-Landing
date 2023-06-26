@@ -1,39 +1,95 @@
-import React from 'react';
-import Card from './cardServices';
-import { useTranslation } from 'react-i18next'
+import React from "react";
+import Card from "./cardServices";
+import { useTranslation } from "react-i18next";
+import CardPartner from "./CardPartner";
 
 const Servicios = () => {
-  
-  const [t,i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global");
 
-    return (
-        <div id='Servicios' className='flex flex-col justify-start aling-center w-full min-h-screen  mt-16 '>
-          
-            <h2 className='text-3xl font-normal tracking-wide text-center'>{t("services.0.title")} <span className='border-b-2 border-primary font-semibold pb-0.5'>{t("services.0.subtitle")}</span> </h2>
-            <p className='md:mx-20 mt-2 font-light text-sm text-center mx-1'>{t("services.0.description")}</p>
-            <div className="grid grid-cols-2 mx-6 mt-10 md:mx-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card
-                title={t("services.1.desarrollo")}
-                description={t("services.1.description")}
-                image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/desarrollo.png?alt=media&token=86e72111-793f-492f-8d65-e2d0a78151d9"
-              />
-            <Card
-        title={t("services.2.bases")}
-        description={t("services.2.description")}
-        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/bases.png?alt=media&token=db9807a6-dc60-4566-b5e0-429688d294f5"
-      />
-      <Card
-        title={t("services.3.diseño")}
-        description={t("services.3.description")}
-        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/desing.png?alt=media&token=81c2d778-38e5-4356-866e-9d0e9f1aedb5"/>
-     <Card
-        title="Marketing Digital"
-        description=""
-        image="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/mark.png?alt=media&token=e2375d2a-a6da-46f5-aaac-8b9abc1ae6f6&_gl=1*30e2zd*_ga*MTYwNzk3NjQyNS4xNjc2MzgyMzU3*_ga_CW55HF8NVT*MTY4NjMyNDIwNy4zNy4xLjE2ODYzMjQ0MjUuMC4wLjA."/>
-    </div>
-            
+  return (
+    <>
+      <section className="mt-20 relative ">
+          <h4 className="custom-shadow text-8xl font-black mb-20 text-start ml-64 text-black ">OUR <br />DIGITAL <br /> SERVICES</h4>
+          <img className="absolute right-28 w-1/3 top-0 " src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/Our%20services%20(Post%20de%20Facebook%20(Horizontal)).png?alt=media&token=175179e0-ecd4-4e17-a16e-ea3fe17932bc" alt="celular" />
+        <div className="flex gap-10 justify-center flex-wrap">
+          <Card
+            title="Landing Page"
+            p1="Landing Page de alto rendimiento"
+            p2="Captura la atención de tus visitantes"
+            p3="Aumenta la conversión de tu sitio web"
+            p4="Diseño personalizado y atractivo"
+            p5="Estructura optimizada para resultados"
+            p6="Impulsa tu marca y obtén más clientes"
+            p7="Mejora la experiencia del usuario"
+          ></Card>
+
+          <Card
+            title="Web App"
+            p1="Desarrollo de Web Apps a medida"
+            p2="Soluciones personalizadas para tu negocio"
+            p3="Funcionalidad excepcional y rendimiento"
+            p4="Interfaz intuitiva y amigable"
+            p5="Adaptabilidad a diferentes dispositivos"
+            p6="Experiencia de usuario única"
+            p7="Escalabilidad y crecimiento"
+          ></Card>
+
+          <Card
+            title="Ecommerce"
+            p1="Diseño y desarrollo de tiendas online"
+            p2="Crea tu propia tienda virtual"
+            p3="Aumenta tus ventas en línea"
+            p4="Administración fácil y segura"
+            p5="Diseño atractivo y profesional"
+            p6="Integración de pasarelas de pago"
+            p7="Amplía tu alcance y llega a más clientes"
+          ></Card>
+
+          <Card
+            title="App iOS-Android"
+            p1="Desarrollo de aplicaciones para iOS y Android"
+            p2="Experiencia móvil de primera clase"
+            p3="Funcionalidad adaptada a cada plataforma"
+            p4="Diseño atractivo y intuitivo"
+            p5="Optimización de rendimiento"
+            p6="Lanzamiento en las tiendas de aplicaciones"
+            p7="Conexión directa con tu audiencia"
+          ></Card>
+
+          <Card
+            title="SEO"
+            p1="Optimización de motores de búsqueda (SEO)"
+            p2="Aumenta la visibilidad de tu sitio web"
+            p3="Mejora tu posicionamiento en Google"
+            p4="Genera tráfico orgánico relevante"
+            p5="Investigación de palabras clave"
+            p6="Optimización técnica y de contenido"
+            p7="Análisis y seguimiento de resultados"
+          ></Card>
+
+          <Card
+            title="Ads"
+            p1="Campañas publicitarias efectivas"
+            p2="Llega a tu audiencia objetivo"
+            p3="Amplifica el alcance de tu negocio"
+            p4="Segmentación precisa del público"
+            p5="Resultados medibles y seguimiento de campañas"
+            p6="Optimización continua para maximizar el ROI"
+            p7="Estrategias publicitarias personalizadas"
+          ></Card>
+          <CardPartner
+            title="Partner Exclusivo de Future Agency"
+            p1="Forma parte del futuro y Convertirte en Partner de Future Agency!"
+            p2="Trabajaremos estrechamente contigo para crear una estrategia personalizada que te posicione como líder en tu industria y te conecte de manera efectiva con tu audiencia objetivo."
+            p3="Ofrecemos un servicio premium altamente personalizado, trabajando con un número limitado de clientes para garantizar resultados sobresalientes."
+            p4="Recibirás una guía detallada sobre cómo aprovechar al máximo la inteligencia artificial en tu estrategia de marketing, desbloqueando nuevas oportunidades y ventajas significativas en tu negocio."
+            p5="Obtén resultados extraordinarios y haz realidad tus sueños digitales junto a nosotros."
+            p7="¡El futuro está a tu alcance! Contacta con nosotros para más detalles y reserva tu lugar como Partner de Future Agency."
+          ></CardPartner>
         </div>
-    );
-}
+      </section>
+    </>
+  );
+};
 
 export default Servicios;

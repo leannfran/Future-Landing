@@ -3,8 +3,9 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import {FiExternalLink} from 'react-icons/fi'
 const TeamCard = ({ name, position, imageUrl, Linkedin, Portofilo }) => {
   return (
-    <div className="flex rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden bg-gray-50 md:w-1/3 border">
+    <div className="flex  border-black shadow-lg hover:shadow-xl transition-shadow overflow-hidden md:w-1/3 border">
       <div className="flex justify-center ">
+        <div className='absolute'></div>
         <img
           src={imageUrl}
           alt={name}
@@ -14,7 +15,7 @@ const TeamCard = ({ name, position, imageUrl, Linkedin, Portofilo }) => {
         />
       </div>
       <div className="flex flex-col items-start justify-between pl-2 gap-2 p-2">
-        <h3 className="font-semibold p text-xl">
+        <h3 className="font-black p text-xl">
           {name}
         </h3>
         <p className="text-gray-600 border-b pl-2 border-primary ">

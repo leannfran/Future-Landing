@@ -8,9 +8,8 @@ const Team = () => {
 
   return (
     <>
-      <h3 className="text-center font-extralight text-3xl mb-10" id="Team"> {t("team.title")} </h3>
-
-      <div className="flex flex-col md:flex-row gap-6 md:gap-2 mx-4">
+      <h3 className="text-center font-thin   text-black  text-6xl mb-10" id="Team"><span className="custom-shadow ">#</span><span className="">TEAM</span></h3>
+      <div className="flex flex-wrap justify-center flex-col md:flex-row gap-6 md:gap-20 mx-4">
         <TeamCard
           name="Leandro Franco"
           position="Ceo - Front End"
@@ -37,6 +36,13 @@ const Team = () => {
           position="Full Stack Dev"
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/eze.png?alt=media&token=d736e0c5-35e9-4959-b2d0-5349e0e995d0"
           Linkedin="https://www.linkedin.com/in/exequiel-portero/"
+          Portofilo="https://github.com/Portero20"
+        />
+          <TeamCard
+          name="Matias Otero"
+          position="Community Manager"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/%5Bremoval.ai%5D_tmp-645aba561f7c4.png?alt=media&token=a6988370-756a-487f-96f5-d09283889339"
+          Linkedin="https://www.linkedin.com/in/matias-otero-8b48951ba/"
           Portofilo="https://github.com/Portero20"
         />
       </div>
