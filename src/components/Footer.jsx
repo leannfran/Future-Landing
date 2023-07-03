@@ -53,7 +53,7 @@ const Footer = () => {
                 Future - Desarrollo Web
               </a>
               <a
-                href="https://www.instagram.com/future.mark/"
+                href="https://www.instagram.com/future.agency.dzn/"
                 className="flex items-center gap-2 hover:bg-gray-100 p-2 rounded-lg transition-colors"
                 target="_blank"
               >
@@ -62,7 +62,7 @@ const Footer = () => {
                   className="w-[20px] h-[20px]"
                   alt="JT Devs"
                 />
-                future.mark
+                future.digital.dzn 
               </a>
               <a
                 href="https://www.linkedin.com/company/future-agency-dzn/"
