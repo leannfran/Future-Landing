@@ -7,6 +7,7 @@ import Presentation from "./components/Presentation";
 import Team from "./components/Team";
 import Clientes from "./components/Clientes";
 import Desarrollo from "./components/Desarrollo";
+import GoogleAnalytics from "./components/GoogleA";
 
 const App = () => {
     <head>
@@ -23,7 +24,8 @@ const App = () => {
       <Team/>
       <Servicios/>
       <Footer/>
-     
+      <GoogleAnalytics />
+
     </div>
   );
 }
