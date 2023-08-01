@@ -25,6 +25,13 @@ const Team = () => {
           Portofilo="https://www.behance.net/candelaromero4"
         />
         <TeamCard
+          name="Agustina Silveira"
+          position={t("team.ux/ui")}
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/agus.jpeg?alt=media&token=8340e223-52c9-44a9-b80c-073bac491e5b"
+          Linkedin="https://www.linkedin.com/in/agustina-silveira-8596b1267"
+          Portofilo="https://www.canva.com/design/DAFc0Mipvn4/39ySbid_Yx-RcnzwAK9Xlw/view?utm_content=DAFc0Mipvn4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        />
+        <TeamCard
           name="Alan Vargas"
           position="Full Stack Dev"
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/alan.png?alt=media&token=b31acad7-dfb7-4688-afb5-d5dee4d1637b"
