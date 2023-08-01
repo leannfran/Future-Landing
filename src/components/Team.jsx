@@ -12,7 +12,7 @@ const Team = () => {
       <div className="flex flex-wrap justify-center flex-col md:flex-row gap-6 md:gap-20 mx-4">
         <TeamCard
           name="Leandro Franco"
-          position="founder / web developer / growth especialist"
+          position="ceo / web developer / growth especialist"
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/Screen%20Shot%202023-08-01%20at%2015.57.24.png?alt=media&token=fc8cc193-fa21-4ae8-b080-91c1cd86f2dd"
           Linkedin="https://www.linkedin.com/in/leandro-franco-bb9101245/"
           Portofilo="https://my-portfolio-lac-psi.vercel.app/"
