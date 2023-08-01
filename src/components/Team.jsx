@@ -12,8 +12,8 @@ const Team = () => {
       <div className="flex flex-wrap justify-center flex-col md:flex-row gap-6 md:gap-20 mx-4">
         <TeamCard
           name="Leandro Franco"
-          position="Ceo - Front End"
-          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/%5Bremoval.ai%5D_tmp-646fd21dbc4ec.png?alt=media&token=8eca1078-059d-472f-8bcb-901dacd1600c"
+          position="founder / web developer / growth especialist"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/Screen%20Shot%202023-08-01%20at%2015.57.24.png?alt=media&token=fc8cc193-fa21-4ae8-b080-91c1cd86f2dd"
           Linkedin="https://www.linkedin.com/in/leandro-franco-bb9101245/"
           Portofilo="https://my-portfolio-lac-psi.vercel.app/"
         />
@@ -27,7 +27,7 @@ const Team = () => {
         <TeamCard
           name="Agustina Silveira"
           position={t("team.ux/ui")}
-          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/agus.jpeg?alt=media&token=8340e223-52c9-44a9-b80c-073bac491e5b"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/c9646563-a2fe-4627-9e6f-0a2ac55d59dc%20(1).png?alt=media&token=be7d411e-acd1-42b6-8460-50a2951e2998"
           Linkedin="https://www.linkedin.com/in/agustina-silveira-8596b1267"
           Portofilo="https://www.canva.com/design/DAFc0Mipvn4/39ySbid_Yx-RcnzwAK9Xlw/view?utm_content=DAFc0Mipvn4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
         />
@@ -51,7 +51,14 @@ const Team = () => {
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/%5Bremoval.ai%5D_tmp-645aba561f7c4.png?alt=media&token=a6988370-756a-487f-96f5-d09283889339"
           Linkedin="https://www.linkedin.com/in/matias-otero-8b48951ba/"
           Portofilo="https://github.com/Portero20"
+
         />
+         <TeamCard
+          name="Ramiro Bravo"
+          position="Community Manager / Traficker"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/097832ff-f59d-4f2f-a215-e69a6f580402.png?alt=media&token=60f6dc2c-a2d7-4ab8-90d1-e82bacc1d6a9"          Linkedin="https://www.linkedin.com/in/matias-otero-8b48951ba/"
+          Portofilo=""
+          />
       </div>
     </>
   );
