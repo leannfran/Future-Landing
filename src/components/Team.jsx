@@ -56,7 +56,7 @@ const Team = () => {
          <TeamCard
           name="Ramiro Bravo"
           position="Community Manager / Traficker"
-          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/097832ff-f59d-4f2f-a215-e69a6f580402.png?alt=media&token=60f6dc2c-a2d7-4ab8-90d1-e82bacc1d6a9"          Linkedin="https://www.linkedin.com/in/matias-otero-8b48951ba/"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/097832ff-f59d-4f2f-a215-e69a6f580402.png?alt=media&token=60f6dc2c-a2d7-4ab8-90d1-e82bacc1d6a9"          Linkedin="https://www.linkedin.com/in/ramiro-bravo-17a281283/"
           Portofilo=""
           />
       </div>
