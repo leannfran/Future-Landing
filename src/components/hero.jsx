@@ -63,7 +63,7 @@ const Hero = () => {
         </a>
         <a
           className="bg-primary p-4 animate-fade animate-duration-[2800ms] animate-delay-[1400ms] text-xl rounded-full"
-          href="https://www.linkedin.com/company/future-agency-dzn/"
+          href="mailto:leandro@future-agency.tech"
         >
           <BsMailbox />
         </a>
