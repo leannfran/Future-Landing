@@ -7,11 +7,11 @@ const Footer = () => {
   const [t,i18n] = useTranslation("global")
 
     return (
-        <div className="bg-white w-full p-8">
+        <div className="bg-gris text-white w-full p-8">
         <div className="grid grid-rows-1 gap-8 md:grid-cols-12 xl:gap-8">
           <div className="md:col-span-12 xl:col-span-4 flex flex-col gap-4">
-            <h1 className="text-3xl font-bold text-gray-900">Future</h1>
-            <p className="text-gray-600 text-justify">
+            <h1 className="text-3xl font-bold text-gray-100">Future</h1>
+            <p className="text-gray-200 text-justify">
             {t("footer.0.future_description")}
             </p>
           </div>
@@ -141,25 +141,11 @@ const Footer = () => {
         </div>
         <hr className="my-4" />
         <div className="flex flex-col xl:flex-row gap-4 items-center justify-between">
-          <p className="text-gray-800 text-center md:text-left">
+          <p className="text-gray-200 text-center md:text-left">
             &copy; 2023
-            <span className="text-gray-900 font-bold"> Future Company.</span> {t("footer.4.copyright")}
+            <span className="text-gray-100 font-bold"> Future Agency Dzn.</span> {t("footer.4.copyright")}
           </p>
-          <div className="flex flex-col md:flex-row items-center gap-2">
-            <a
-              href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              {t("footer.2.terms_conditions")}
-            </a>
-            <span className="hidden md:flex">|</span>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              {t("footer.3.policy")}
-            </a>
-          </div>
+         
         </div>
       </div>
     );

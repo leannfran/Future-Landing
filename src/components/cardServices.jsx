@@ -9,34 +9,16 @@ import { useTranslation } from 'react-i18next'
   const [t,i18n] = useTranslation("global")
 
   return (
-    <div className="flex flex-col border border-black w-full mx-10 md:mx- md:w-1/3 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500">
-    <div className="flex flex-col justify-between p-4 h-full">
+    <div className="flex flex-col borer border-black w-60 text-white  bg-gradient-to-tr from-primary  to-tres rounded-3xl    overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500">
+    <div className="flex flex-col bg-gris rounded-2xl m-2 justify-between p-4 h-full">
       
       <div>
-        <h3 className="text-3xl  font-black text-gray-800 mb-2">{title}  </h3>
+        <h3 className="text-xl  font-black text-white mb-2">{title}  </h3>
         <ul className=" font-light">
-          <li><span className="custom-shadow font-bold text-xl text-gray-800"> - </span> {p1}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p2}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p3}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p4}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p5}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p6}</li>
-          <li><span className="custom-shadow  font-bold text-xl text-gray-800"> - </span> {p7}</li>
-  
-
-
-
+          <li><span className="custom-shadow font-bold text-lg text-white"> - </span> {p1}</li>
         </ul>
       </div>
-      <div className="flex aling-center flex-col">
-      <a
-          href="#"
-          className="mt-4 md:px-32 py-2 text-center font-light  border border-black hover:bg-black hover:text-white  transition-colors duration-300"
-        
-        >
-          Presupuesto 
-        </a>
-      </div>
+      
     </div>
   </div>
   

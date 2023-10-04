@@ -18,11 +18,9 @@ const App = () => {
     <div className="max-w-full">
       <Header/>
       <Hero/>
-     < WhatsAppButton/>
      <Desarrollo/>
-      <Presentation />
-      <Team/>
       <Servicios/>
+      <Team/>
       <Footer/>
       <GoogleAnalytics />
 

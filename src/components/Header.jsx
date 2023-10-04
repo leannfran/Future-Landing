@@ -49,20 +49,23 @@ const Header = () => {
 
   return (
     <header
-      className={`flex fixed top-0 items-center justify-between xl:justify-start w-full p-4 h-[10vh] z-50 transition-all duration-700 ${
-        scrolled ? "backdrop-blur-sm transition-all" : "bg-transparent"
-      }`}
+      className={`flex bg-gris text-white   items-center justify-between xl:justify-start w-full p-4 h-[10vh] z-50 transition-all duration-700 `}
     >
       <div className="w-1/6 text-center">
-        <span className="text-2xl font-bold relative ">
-          Future<RiCodeSSlashFill className="absolute left-20 bottom-0 " />
-        </span>
+        <img src="img/logo.png" className="w-20" alt="logo future" />
+       
       </div>
       <nav
-        className={`fixed xl:bg-transparent xl:backdrop-blur-none xs:backdrop-blur-xl w-[80%] md:w-[40%] xl:w-full h-full ${
+        className={`fixed bg-gris z-50 xs:backdrop-blur-xl w-[80%] md:w-[40%] xl:w-full h-full ${
           showMenu ? "right-0" : "-right-full"
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center xl:justify-end transition-all duration-700 font-light `}
       >
+         <button
+        className=" text-3xl z-60 p-3 xl:hidden"
+        onClick={() => setShowMenu(!showMenu)}
+      >
+       <RiCloseLine />
+      </button>
         <a href="#" className="hover:border-b-2 hover:border-black py-[2px] px-1 transition-all rounded-sm hover:shadow-sm m-5 font-medium">
         {t("header.Home")}
         </a>
@@ -85,11 +88,7 @@ const Header = () => {
         <div className="flex items-center">
           <input type="checkbox" id="toggle" className="hidden" onClick={() => toggleLanguage()} />
           <label htmlFor="toggle" className="flex items-center cursor-pointer">
-            <span className="relative">
-              <span className="block w-10 h-6 bg-gray-900 rounded-full shadow-inner"></span>
-              <span id="toggle-dot" className="dot absolute left-1 top-1 bg-primary w-4 h-4 rounded-full transition"></span>
-            </span>
-            <span id="toggle-label" className="ml-3 text-gray-700 font-normal">🇪🇸</span>
+           
           </label>
         </div>
 
@@ -97,7 +96,7 @@ const Header = () => {
 
       </nav>
       <button
-        className=" text-3xl z-20 p-3 xl:hidden"
+        className=" text-3xl z-60 p-3 xl:hidden"
         onClick={() => setShowMenu(!showMenu)}
       >
         {showMenu ? <RiCloseLine /> : <RiMenu3Fill />}

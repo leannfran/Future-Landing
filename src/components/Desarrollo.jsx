@@ -49,11 +49,12 @@ const Desarrollo = () => {
   }, []);
 
   return (
-    <>
-      <Element name="myElement1">
+    <div className=" ">
+    
+      <Element classID="" name="myElement1">
         <div
           id="myElement1"
-          className={`${
+          className={`${ 
             animacion1 ? 'animate-fade animate-ease-in-out animate-normal animate-fill-forwards opacity-100' : 'opacity-0'
           } flex gap-8 flex-col md:flex-row mx-3 md:mx-20 mt-20 myElement`}
         >
@@ -91,16 +92,11 @@ const Desarrollo = () => {
           />
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              SECOND STEP
+              ACTION PLAN
             </h4>
             <p className="text-xl text-left font-light text-gray-900 pb-5">
-              Una vez realizada la llamada comenzamos con el Diseño UX/UI de la
-              mano de nuestra talentosa ux/ux designer que se sumergirá en tu
-              visión y trabajará en colaboración contigo. Juntos, daremos vida a
-              una experiencia de usuario (UX) única y un diseño de interfaz (UI)
-              cautivador. Queremos que tu proyecto se destaque y deje una
-              impresión duradera en tus usuarios.
-            </p>
+            Cuando empecemos a trabajar juntos como growth partners, nuestro equipo se integrará completamente en tu empresa para llevar a cabo el plan de acción. Recibirás un proceso de integración, acceso a un espacio de trabajo y un seguimiento de objetivos. Como socios, nuestro compromiso es total y al 100%.
+</p>
             <img
               className="md:mx-20 md:w-1/3 my-5 md:hidden"
               src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/imagenes%20how%20works%2F3.png?alt=media&token=fc0f1d41-3e7e-4971-bfc3-0d1bee493857"
@@ -119,15 +115,10 @@ const Desarrollo = () => {
         >
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              THIRD STEP
+              ONBOARDING STEP
             </h4>
             <p className="text-xl font-light text-gray-900">
-              Una vez que hayamos obtenido tu aprobación para el diseño, nuestro
-              equipo de desarrollo entrará en acción. Nos enfocamos en convertir
-              tus ideas en una realidad tangible. Utilizamos tecnologías de
-              vanguardia como Next.js y buenas prácticas de desarrollo para
-              asegurarnos de que tu proyecto esté a la altura de tus expectativas
-              y sea de la más alta calidad.
+              Una vez que empezemos a trabajar en conjunto como PARTNERS nuestro equipo se acoplara a tu empresa para poner en marcha el plan de accion, recibiras un onboard, acceso a un espacio de trabajo y seguimiento de objetivos, como partners nuestro compromiso es 100%.
             </p>
           </div>
           <img
@@ -152,17 +143,13 @@ const Desarrollo = () => {
           />
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              FOURTH STEP
+            GROWTH STRATEGY
+
             </h4>
             <p className="text-xl font-light text-gray-900 pb-5">
-              Una vez completado el desarrollo, nos aseguraremos de que tu
-              proyecto esté completamente probado y listo para ser lanzado al
-              mundo. Nuestro equipo de control de calidad realizará pruebas
-              exhaustivas para garantizar que todo funcione sin problemas y cumpla
-              con tus expectativas. Después de recibir tu aprobación final,
-              implementaremos el lanzamiento en producción y estaremos ahí para
-              asegurarnos de que todo vaya según lo planeado.
-            </p>
+            Como tus Growth Partners, diseñaremos una estrategia personalizada para impulsar el crecimiento y la expansión de tu empresa. Nos enfocamos en identificar oportunidades clave y en maximizar el potencial de tu negocio.
+
+</p>
             <img
               className="md:ml-20 md:w-1/3 my-5 md:hidden"
               src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/imagenes%20how%20works%2F4.png?alt=media&token=ec8a060d-3599-40b4-8f24-f30d20d60604"
@@ -181,15 +168,10 @@ const Desarrollo = () => {
         >
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              FIFTH STEP
+            OPTIMIZACIÓN CONTINUA
             </h4>
             <p className="text-xl font-light text-gray-900">
-              Después del lanzamiento, continuamos brindándote soporte y
-              mantenimiento para garantizar que tu proyecto siga funcionando sin
-              problemas. También podemos ayudarte con actualizaciones, mejoras y
-              cualquier otra cosa que necesites para hacer crecer tu negocio en
-              línea. Estamos comprometidos a ser tu socio tecnológico a largo
-              plazo y a ayudarte en cada paso del camino.
+            Nuestra colaboración como Growth Partners no se detiene en la implementación del plan inicial. Estamos comprometidos con la optimización continua, adaptando estrategias y tácticas para garantizar el éxito sostenible de tu empresa en un entorno cambiante. Tu crecimiento es nuestro objetivo constante.
             </p>
           </div>
           <img
@@ -199,7 +181,7 @@ const Desarrollo = () => {
           />
         </div>
       </Element>
-    </>
+    </div>
   );
 };
 

@@ -1,41 +1,76 @@
 import { RiCodeSSlashFill, RiCodeFill } from "react-icons/ri";
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import { useEffect } from "react";
+import { BsInstagram, BsLinkedin, BsWhatsapp, BsMailbox , BsMouse} from "react-icons/bs";
 
 const Hero = () => {
+  const [t, i18n] = useTranslation("global");
 
-    const [t,i18n] = useTranslation("global")
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.href = "https://assets.calendly.com/assets/external/widget.css";
+    link.rel = "stylesheet";
+    document.head.appendChild(link);
 
-    return (
-        <section className="hero md:bg-fixed bg-cover bg-no-repeat pt-[10vh] min-h-screen flex flex-col md:flex-row pb-[5vh]  ">
-           <div className=" md:col-span-5  flex items-center justify-start md:justify-center p-5 md:p-20">
-                <div className="flex flex-col gap-8">
-                    <h1 className="md:text-[7rem] text-black xs:text-[6rem] text-[5rem] font-medium tracking-wide leading-[7rem] sm:text-[6rem]">
-                    {t("hero.title")}  <span className="pr-10 text-primary">{t("hero.ideal")}</span>
-                    </h1>
-                    <p className="text-white font-light text-xl tracking-wider leading-[2.5rem]">{t("hero.description")}{/* Somos future una agencia destinada a digitalizar tu Empresa, Negocio o Emprendimiento de manera sencilla  */}
-                    </p>
-                    <div className="flex">
-                        <a className="bg-primary border-primary text-black text-center
-                         font-semibold border-2 py-2 md:px-8 rounded-full
-                         w-1/3 md:w-[25vh]"
-                         href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90">
-                            {t("buttons.digitalizate")}
-                        </a>
-                        <a className="border-2 font-semibold border-primary text-primary py-2 px-6 hover:bg-primary hover:text-black rounded-full transition-colors ml-3" href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90" target="_blank">
-                        {t("buttons.agenda")}</a>
-                    </div>
-                
-            </div></div>
-            
-            <div className="justify-center flex flex-col md col-span-3">
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
 
-                <img src={i18n.language === 'es' ? 'img/mockups/Future_Español.png' : 'img/mockups/Future_Inglés.png'} alt="Computadora y celular de future agency"/>
-                
-            </div>
-        </section>
-        
-    );
-}
+    script.onload = () => {
+      Calendly.initBadgeWidget({
+        url: "https://calendly.com/leandro-future/propuesta-future",
+        text: "Programe una reunión conmigo",
+        color: "#2f05ff",
+        textColor: "#ffffff",
+        branding: true,
+      });
+    };
+
+    return () => {
+      document.head.removeChild(link);
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <section className=" bg-gris text-white  h-screen pt-20 md:pt-10 flex flex-col items-center justify-start    ">
+      <h1 className="font-bold text-7xl md:text-[10rem] animate-fade animate-duration-[2800ms] animate-delay-[400ms] ">
+        FUTURE
+      </h1>
+      <h2 className="font-extralight text-5xl mt-10 md:mt-0 md:text-7xl animate-fade animate-duration-[2800ms] animate-delay-[700ms] border-primary text-center md:border-t">
+        YOUR GROWTH PARTNERS
+      </h2>
+      <div className="flex gap-10 mt-10">
+        <a
+          className="bg-primary animate-fade animate-duration-[2800ms] animate-delay-[900ms] p-4 text-xl rounded-full"
+          href="https://www.instagram.com/future.agency.dzn/"
+        >
+          <BsInstagram />
+        </a>
+        <a
+          className="bg-primary animate-fade animate-duration-[2800ms] animate-delay-[1100ms] p-4 text-xl rounded-full"
+          href="https://api.whatsapp.com/send?phone=5491132693101&text=Hola%20quiero%20DIGITALIZAR%20mi%20Empresa%20%F0%9F%8C%90"
+        >
+          <BsWhatsapp />
+        </a>
+        <a
+          className="bg-primary p-4 animate-fade animate-duration-[2800ms] animate-delay-[1200ms] text-xl rounded-full"
+          href="https://www.linkedin.com/company/future-agency-dzn/"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          className="bg-primary p-4 animate-fade animate-duration-[2800ms] animate-delay-[1400ms] text-xl rounded-full"
+          href="https://www.linkedin.com/company/future-agency-dzn/"
+        >
+          <BsMailbox />
+        </a>
+      </div>
+      <BsMouse className="text-3xl animate-fade animate-duration-[2800ms] animate-delay-[3000ms] mt-20" />
+    </section>
+  );
+};
 
 export default Hero;
