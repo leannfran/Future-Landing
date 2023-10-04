@@ -60,13 +60,9 @@ const Desarrollo = () => {
         >
           <div className={`flex flex-col md:w-1/2  `}>
             <h4 className="text-3xl  custom-shadow-hover transition-all  font-black">
-              FIRST STEP
-            </h4>
+            FIRST STEP: Tu Viaje Empieza Aquí            </h4>
             <p className="text-xl  font-light text-justify text-gray-900">
-              Iniciamos nuestro viaje contigo con una llamada personalizada.
-              Queremos conocerte y comprender a fondo tu proyecto. Estamos
-              ansiosos por escuchar tus ideas, desafíos y metas, para poder
-              ofrecerte la mejor solución posible.
+            Comenzamos nuestro viaje contigo a través de una llamada personalizada. Queremos sumergirnos en tu proyecto, entenderlo a fondo y conocer tus ideas, desafíos y metas para ofrecerte la solución más precisa y efectiva.
             </p>
           </div>
 
@@ -92,11 +88,9 @@ const Desarrollo = () => {
           />
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              ACTION PLAN
-            </h4>
+            STRATEGY PREPARATION            </h4>
             <p className="text-xl text-left font-light text-gray-900 pb-5">
-            Cuando empecemos a trabajar juntos como growth partners, nuestro equipo se integrará completamente en tu empresa para llevar a cabo el plan de acción. Recibirás un proceso de integración, acceso a un espacio de trabajo y un seguimiento de objetivos. Como socios, nuestro compromiso es total y al 100%.
-</p>
+            Posterior a nuestra llamada, nuestro equipo prepara una estrategia completamente personalizada, diseñada en base a las necesidades específicas de tu empresa. Esta estrategia, junto con el presupuesto correspondiente, te será presentada en un documento detallado.</p>
             <img
               className="md:mx-20 md:w-1/3 my-5 md:hidden"
               src="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/imagenes%20how%20works%2F3.png?alt=media&token=fc0f1d41-3e7e-4971-bfc3-0d1bee493857"
@@ -115,11 +109,9 @@ const Desarrollo = () => {
         >
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-              ONBOARDING STEP
-            </h4>
+            ONBOARDING STEP: Juntos, Iniciamos el Viaje            </h4>
             <p className="text-xl font-light text-gray-900">
-              Una vez que empezemos a trabajar en conjunto como PARTNERS nuestro equipo se acoplara a tu empresa para poner en marcha el plan de accion, recibiras un onboard, acceso a un espacio de trabajo y seguimiento de objetivos, como partners nuestro compromiso es 100%.
-            </p>
+            Una vez que empezamos a trabajar en conjunto como PARTNERS, nuestro equipo se fusiona con tu empresa para poner en marcha el plan de acción. Recibirás un proceso de incorporación, acceso a un espacio de trabajo y seguimiento de objetivos. Como socios, nuestro compromiso es absoluto, al 100%.            </p>
           </div>
           <img
             className="md:ml-20 md:w-1/3"
@@ -143,7 +135,8 @@ const Desarrollo = () => {
           />
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-3xl custom-shadow-hover transition-all  font-black">
-            GROWTH STRATEGY
+            GROWTH STRATEGY: Tu Crecimiento, Nuestra Prioridad
+
 
             </h4>
             <p className="text-xl font-light text-gray-900 pb-5">
