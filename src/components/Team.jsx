@@ -33,19 +33,25 @@ const Team = () => {
           Portofilo="https://alan-vargas-portfolio.netlify.app/"
         />
          <TeamCard
-          name="Natalia Coronel"
+          name="Macarena Paolini"
           position="Community Manager"
-          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/1.png?alt=media&token=9d519a39-8479-4aba-a8f6-f8952c2fbde8&_gl=1*bfiotd*_ga*MTYwNzk3NjQyNS4xNjc2MzgyMzU3*_ga_CW55HF8NVT*MTY5NjQ1MTI0NS42Ny4xLjE2OTY0NTEyODEuMjQuMC4w"
-          Linkedin="https://www.linkedin.com/in/natalia-coronel-a98979217/"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/WhatsApp%20Image%202024-01-10%20at%2010.37.41.jpeg?alt=media&token=668df69b-27ac-4c3d-9beb-ec07c1fda903"
+          Linkedin="https://www.linkedin.com/in/macarena-paolini-7697ab186/"
           Portofilo="https://alan-vargas-portfolio.netlify.app/"
         />
          <TeamCard
           name="Francisco Duarte"
-          position="Sales Especialist"
+          position="Sales Ia Especialist"
           imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/2.png?alt=media&token=ca489ee8-0b68-4d93-ad83-61e0e3d67106&_gl=1*1grue3p*_ga*MTYwNzk3NjQyNS4xNjc2MzgyMzU3*_ga_CW55HF8NVT*MTY5NjQ1MTI0NS42Ny4xLjE2OTY0NTEzMDguNjAuMC4w"
           Linkedin="https://www.linkedin.com/in/francisco-duarte-602b83250/"
           Portofilo="https://alan-vargas-portfolio.netlify.app/"
-        />
+        /><TeamCard
+        name="Tomas Abuin"
+        position="Content Manager - Editor"
+        imageUrl="https://firebasestorage.googleapis.com/v0/b/future-landing.appspot.com/o/WhatsApp%20Image%202024-01-12%20at%2018.18.44.jpeg?alt=media&token=7ce17389-59ff-4a85-b6ed-a2559e701fd3"
+        Linkedin="https://www.linkedin.com/in/tomas-abuin-834536217/"
+        Portofilo="https://alan-vargas-portfolio.netlify.app/"
+      />
 
        
       </div>
